@@ -4,8 +4,29 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+h1, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#jogadores{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 1rem;
+}
+
+#turno{
+    margin-bottom: 1rem;
+}
+
+#turno{
+    color: green;
+    font-size: 1.5rem;
+}
+
 #tabuleiro{
-    background-color: aqua;
     margin: auto;
     display: grid;
     place-content: center;
@@ -13,7 +34,12 @@
     grid-template-rows: 150px 150px 150px;
 }
 
-p{
+#tabuleiro p{
     width: 100%;
     border: 1px solid black;
+    font-size: 4rem;
+}
+
+#tabuleiro p:hover{
+    cursor: pointer;
 }

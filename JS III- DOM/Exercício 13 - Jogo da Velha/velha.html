@@ -10,21 +10,29 @@
 <body>
     <header>
         <h1>Jogo da Velha</h1>
+        <p>Insira o nome dos jogadores abaixo e clique no botão "Iniciar"</p>
     </header>
     <main>
+        <div id="jogadores">
+            <label for="jogador1">Jogador 1</label>
+            <input type="text" id="jogador1" name="jogador1">
+            <label for="jogador1">Jogador 2</label>
+            <input type="text" id="jogador2" name="jogador2">
+            <button id="iniciar">Iniciar</button>
+        </div>
         <div>
-            teste
+            <p id="turno"></p>
         </div>
         <div id="tabuleiro">
-            <p>X</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
-            <p>x</p>
+            <p id="1"></p>
+            <p id="2"></p>
+            <p id="3"></p>
+            <p id="4"></p>
+            <p id="5"></p>
+            <p id="6"></p>
+            <p id="7"></p>
+            <p id="8"></p>
+            <p id="9"></p>
         </div>
     </main>
 </body>
